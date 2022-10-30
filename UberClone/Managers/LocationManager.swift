@@ -16,6 +16,7 @@ class LocationManager: NSObject, ObservableObject {
         clLocationManager.desiredAccuracy = kCLLocationAccuracyBest
         clLocationManager.requestWhenInUseAuthorization()
         clLocationManager.startUpdatingLocation()
+        clLocationManager.distanceFilter = 10.0
     }
 }
 
