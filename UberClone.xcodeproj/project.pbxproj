@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AF109142290FBC1F00AAC754 /* RideType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF109140290FB9A700AAC754 /* RideType.swift */; };
+		AF109144290FDB7500AAC754 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF109143290FDB7500AAC754 /* Double.swift */; };
 		AFADFC3C290BCD1A00601293 /* UberCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFADFC3B290BCD1A00601293 /* UberCloneApp.swift */; };
 		AFADFC40290BCD1D00601293 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFADFC3F290BCD1D00601293 /* Assets.xcassets */; };
 		AFADFC43290BCD1D00601293 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFADFC42290BCD1D00601293 /* Preview Assets.xcassets */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		AF109140290FB9A700AAC754 /* RideType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideType.swift; sourceTree = "<group>"; };
+		AF109143290FDB7500AAC754 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		AFADFC38290BCD1A00601293 /* UberClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFADFC3B290BCD1A00601293 /* UberCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberCloneApp.swift; sourceTree = "<group>"; };
 		AFADFC3F290BCD1D00601293 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 		AFADFC4B290BD08200601293 /* Extention */ = {
 			isa = PBXGroup;
 			children = (
+				AF109143290FDB7500AAC754 /* Double.swift */,
 			);
 			path = Extention;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				AFADFC5F290C2AEA00601293 /* LocationSearchView.swift in Sources */,
 				AFADFC55290BD50300601293 /* LocationManager.swift in Sources */,
 				AFF6B838290E92DD00E14208 /* RideRequestView.swift in Sources */,
+				AF109144290FDB7500AAC754 /* Double.swift in Sources */,
 				AFADFC65290D84A400601293 /* MapViewState.swift in Sources */,
 				AFADFC5D290C27B100601293 /* MapViewActionButton.swift in Sources */,
 				AFADFC3C290BCD1A00601293 /* UberCloneApp.swift in Sources */,
